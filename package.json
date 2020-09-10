@@ -1,5 +1,5 @@
 {
-    "title": "Shop Homepage",
+    "title": "LeeLees UnIcOrns",
     "name": "startbootstrap-shop-homepage",
     "version": "4.2.2",
     "scripts": {
@@ -20,20 +20,17 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Elise Hoovler",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-shop-homepage.git"
+        "url": "https://github.com/ejhoovler/unicorn_spit.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.0",
+        "bootstrap": "^4.5.0",
         "jquery": "3.5.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
+        "browser-sync": "^2.26.12",
         "del": "5.1.0",
         "gulp": "^4.0.2",
         "merge-stream": "2.0.0"
