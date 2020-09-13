@@ -1,0 +1,114 @@
+[
+  {
+    "sku": "USPIT001",
+    "name": "Blue Thunder",
+    "description": "4 oz bottle",
+    "image": "~/img/bth.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT002",
+    "name": "Molly Red Pepper",
+    "description": "4 oz bottle",
+    "image": "~/img/mrp.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT003",
+    "name": "Midnights Blackness",
+    "description": "4 oz bottle",
+    "image": "~/img/mb.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT004",
+    "name": "Pixie Punk Pink",
+    "description": "4 oz bottle",
+    "image": "~/img/ppp.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT005",
+    "name": "Phoenix Fire",
+    "description": "4 oz bottle",
+    "image": "~/img/pf.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT006",
+    "name": "Lemon Kiss",
+    "description": "4 oz bottle",
+    "image": "~/img/lk.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT007",
+    "name": "White Ning",
+    "description": "4 oz bottle",
+    "image": "~/img/wng.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT008",
+    "name": "Zia",
+    "description": "4 oz bottle",
+    "image": "~/img/zia.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT009",
+    "name": "Dragons Belly",
+    "description": "4 oz bottle",
+    "image": "~/img/dsb.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT010",
+    "name": "Purple Hill Majesty",
+    "description": "4 oz bottle",
+    "image": "~/img/phm.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT011",
+    "name": "Navajo Jewel",
+    "description": "4 oz bottle",
+    "image": "~/img/nj.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT012",
+    "name": "Rustic Reality",
+    "description": "4 oz bottle",
+    "image": "~/img/rr.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT013",
+    "name": "Weathered Daydream",
+    "description": "4 oz bottle",
+    "image": "~/img/wd.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+  {
+    "sku": "USPIT014",
+    "name": "Squirrel",
+    "description": "4 oz bottle",
+    "image": "~/img/sq.jpg",
+    "amount": 1200,
+    "currency": "USD"
+  },
+]
