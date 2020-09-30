@@ -1,11 +1,14 @@
 {
     "title": "LeeLees UnIcOrns",
-    "name": "startbootstrap-shop-homepage",
-    "version": "4.2.2",
+    "version": "1.0.2",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "webhook": "stripe listen --forward-to localhost:8888/.netlify/functions/webhooks"
     },
-    "description": "A shop homepage HTML template built with Bootstrap",
+    "description": "A shop homepage HTML template built with Bootstrap and React",
     "keywords": [
         "css",
         "sass",
@@ -13,10 +16,6 @@
         "responsive",
         "theme"
     ],
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-shop-homepage/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
     "author": "Elise Hoovler",
     "repository": {
@@ -24,15 +23,39 @@
         "url": "https://github.com/ejhoovler/unicorn_spit.git"
     },
     "dependencies": {
+        "@stripe/react-stripe-js": "^1.1.2",
+        "@stripe/stripe-js": "^1.9.0",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.0.4",
+        "@testing-library/user-event": "^12.1.6",
         "bootstrap": "^4.5.0",
-        "gatsby-plugin-snipcart": "^1.1.2",
         "jquery": "3.5.1",
-        "stripe": "^8.96.0"
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^3.4.3",
+        "stripe": "^8.96.0",
+        "use-shopping-cart": "^2.1.0"
     },
     "devDependencies": {
         "browser-sync": "^2.26.12",
         "del": "5.1.0",
         "gulp": "^4.0.2",
         "merge-stream": "2.0.0"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
     }
 }
