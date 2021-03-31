@@ -23,26 +23,23 @@
         "url": "https://github.com/ejhoovler/unicorn_spit.git"
     },
     "dependencies": {
-        "@stripe/react-stripe-js": "^1.1.2",
-        "@stripe/stripe-js": "^1.9.0",
-        "@testing-library/jest-dom": "^5.11.4",
-        "@testing-library/react": "^11.0.4",
-        "@testing-library/user-event": "^12.1.6",
-        "bootstrap": "^4.5.0",
-        "jquery": "3.5.1",
-        "mdb-ui-kit": "^1.2.0",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
+        "@chec/commerce.js": "^2.3.2",
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "@stripe/react-stripe-js": "^1.4.0",
+        "@stripe/stripe-js": "^1.13.1",
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.5",
+        "@testing-library/user-event": "^13.0.6",
+        "bootstrap": "^4.6.0",
+        "jquery": "3.6.0",
+        "mdb-ui-kit": "^3.3.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-hook-form": "^6.15.5",
         "react-router-dom": "^5.2.0",
-        "react-scripts": "^3.4.3",
-        "stripe": "^8.96.0",
-        "use-shopping-cart": "^2.1.0"
-    },
-    "devDependencies": {
-        "browser-sync": "^2.26.12",
-        "del": "5.1.0",
-        "gulp": "^4.0.2",
-        "merge-stream": "2.0.0"
+        "react-scripts": "^4.0.3",
+        "stripe": "^8.138.0"
     },
     "eslintConfig": {
         "extends": "react-app"
