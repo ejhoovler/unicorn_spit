@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography, Button, Divider } from '@material-ui/core';
 import {
     Elements,
-    CardElements,
     ElementsConsumer,
     CardElement,
 } from '@stripe/react-stripe-js';
@@ -76,7 +75,7 @@ const PaymentForm = ({
                         <form onSubmit={(e) => handleSubmit(e, elements, stripe)}>
                             <CardElement />
                             <br /> <br />
-                            <div style={{ display: "flex" justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between" }}>
                                 <Button variant="outlined" onClick={backStep}>
                                     Back
                                 </Button>

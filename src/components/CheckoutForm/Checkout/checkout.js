@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import {
-    CssBaseLine,
     Paper,
     Stepper,
     Step,
@@ -48,7 +47,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
             }
         };
         generateToken();
-    }, [cart]);
+    }, [cart, history]);
 
     const Form = () => {
         return activeStep === 0 ? (
@@ -110,7 +109,6 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
         };
         return (
             <div>
-                <CssBaseLine />
                 <div className={classes.toolbar} />
                 <main className={classes.layout}>
                     <Paper className={classes.paper}>

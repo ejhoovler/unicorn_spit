@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Product, Navbar, Cart, Checkout } from './components';
-import { commerce } from './components/library/commerce';
+import { commerce } from './components/Library/commerce';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
